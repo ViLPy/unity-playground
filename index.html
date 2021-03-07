@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Playground</title>
+    <style media="screen">
+      html, body {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+      }
+
+      body {
+        background-color: #eee;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      canvas {
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: -moz-crisp-edges;
+        image-rendering: pixelated;
+      }
+    </style>
+    <script src="Build/061f463856577255fb5eefaf73e67127.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/5bb631011106ff316ada53f6a9585ed8.json");
+    </script>
+  </head>
+  <body>
+    <div id="unityContainer" style="width: 640px; height: 400px; margin: auto"></div>
+  </body>
+</html>

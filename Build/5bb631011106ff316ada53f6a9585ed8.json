@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Playground",
+"productVersion": "1.0.2",
+"dataUrl": "411d764752e5251f51dca0df5c0fd204.unityweb",
+"wasmCodeUrl": "1a7db56cd953e13876f4584f4ffb8ee3.unityweb",
+"wasmFrameworkUrl": "171d6607643e5744a78b6c54d09ad9be.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.21f1"
+}
